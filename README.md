@@ -23,9 +23,9 @@ Requestクラスのテストを作成しましょう。
 
 Policyクラスのテストを作成しましょう。
 
-### Controller内の処理をServiceClassへ
-Controller内の処理をServiceClassに移行します。
-必要に応じて、Repositoryクラスを作成して、モデルの処理をそちらに移行することで、再利用しやすくなります。
+### Controller内の処理をServiceクラスやUseCaseクラスへ
+Controller内の処理をServiceクラスやUseCaseクラスに移行します。
+必要に応じて、Repositoryクラスを作成して、モデルの処理をそちらに移行することで、さらに再利用しやすくなります。
 
 以上のアプローチにより、Controller内の処理を$requestの処理と画面遷移の処理に集中させることができるようになります。
 
